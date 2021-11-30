@@ -133,3 +133,84 @@ footer a:link{
 footer a:visited{
     color: hsl(178, 100%, 50%);
 }
+@media only screen and (max-width: 767px) {
+    main{
+        max-height: 40rem;
+    }
+   
+}
+@media only screen and (max-width: 280px) {
+    #NFT{
+       max-width: 12rem;
+    }
+    h1{
+        display: flex;
+    justify-content: center;
+    }
+    #author{
+        margin-left: -1rem;
+        display: flex;
+        justify-content: center;
+    }
+    #card{
+        height: 430px;
+        width: 250px;
+    }
+    #firstShadow{
+        height: 420px;
+        width: 270px;
+    }
+    #secondShadow{
+        height: 475px;
+    }
+    #info {
+        gap: 1rem;
+    
+    }
+
+    #viewIcon{
+        width: 73.9%;
+        padding: 6rem;
+        height: 12rem;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    main{
+        max-height: 40rem;
+    }
+}
+@media only screen and (max-width: 320px) {
+    #NFT{
+       max-width: 12rem;
+    }
+    h1{
+        display: flex;
+    justify-content: center;
+    }
+    #author{
+        margin-left: -1rem;
+        display: flex;
+        justify-content: center;
+    }
+    #card{
+        height: 430px;
+        width: 250px;
+    }
+    #firstShadow{
+        height: 420px;
+        width: 270px;
+    }
+    #secondShadow{
+        height: 475px;
+    }
+    #info {
+        gap: 1rem;
+    
+    }
+
+    #viewIcon{
+        width: 73.9%;
+        padding: 6rem;
+        height: 12rem;
+    }
+}
